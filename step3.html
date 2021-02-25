@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Review</title>
+</head>
+<body>
+    <table align="center" cellpadding="10" cellspacing="0">
+        <tr>
+            <td bgcolor="#00ff80"><h2>Step 1: Account</h2></td>
+            <td bgcolor="#00ff80"><h2> Step 2: Personal Details </h2></td>
+            <td bgcolor="sky blue"><h2> Step 3: Your Review</h2></td>
+        </tr>
+    </table>
+    <form action="">
+        <fieldset>
+            <legend>Your Review:</legend>
+            <label>How did you hear about us?
+                <select name="hear">
+                    <option value="select">Select your option</option>
+                    <option value=""></option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label>
+                Would you visit again?
+                <br>
+                <input type="radio" name="visit" value="yes">Yes
+                <input type="radio" name="visit" value="no">No    
+                <input type="radio" name="visit" value="maybe">Maybe    
+            </label>
+            <br>
+            <br>
+            <label>Comments:
+                <br>
+                <textarea name="comments" cols="40" rows="5">Enter your comments here...</textarea>
+            </label>
+            <br>
+            <br>
+            <label>Documents:
+                <br>
+                <input type="file" name="Documents">
+            </label>
+            <br>
+            <br>
+            <label>
+                <input type="checkbox" name="emailupdate" value="emailupdate" checked>Sign me up for email updates
+            </label>
+            <br>
+            <br>
+            <label>
+                <a href="step2.html"><img src="images/back.png" alt="Back" width="10%"></a>_
+                <input type="image" src="images/submit.png" width="10%" alt="Submit">
+            </label>
+        </fieldset>
+    </form>
+</body>
+</html>
